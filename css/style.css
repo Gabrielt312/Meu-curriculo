@@ -1,29 +1,28 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 900px;
-    margin: auto;
-    padding: 0 20px;
+    max-width: 1000px;
+
 }
 
 h1, h2, h3 {
-    color: #003366;
+    color: #4d518b;
 }
 
 a {
-    color: #0055a4;
+    color: #4d518b;
     text-decoration: none;
 }
 
 /* header */
-.cabecalho-principal {
-    background-color: #ffffff;
+.cabecalho {
+    background-color: #c2bebe;
     padding: 32px 0;
     border-bottom: 1px solid #ddd;
 }
@@ -37,7 +36,7 @@ a {
 .foto-perfil {
     width: 200px;
     height: 200px;
-    border: 4px solid #003366;
+    border: 4px solid #4d518b;
     margin-right: 20px;
 }
 
@@ -52,25 +51,25 @@ a {
 }
 
 /*  Navegação  */
-.navegacao-principal {
+.navegacao {
     background-color: #333;
     padding: 8px 0;
     top: 0;
 }
-.navegacao-principal ul {
+.navegacao ul {
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 0;
     margin: 0;
 }
-.navegacao-principal a {
+.navegacao a {
     color: #fff;
     padding: 8px 16px;
     display: block;
 }
-.navegacao-principal a:hover {
-    background-color: #003366;
+.navegacao a:hover {
+    background-color: #999797;
 }
 
 /*  Conteúdo Principal */
@@ -83,7 +82,6 @@ main {
     border-radius: 8px;
     padding: 32px;
     margin-bottom: 24px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .cartao h2 {
     margin-top: 0;
@@ -98,7 +96,7 @@ main {
 
 /* Estilos Específicos das Seções */
 .item-experiencia {
-    border-left: 3px solid #003366;
+    border-left: 3px solid #4d518b;
     padding-left: 20px;
 }
 .item-experiencia ul {
